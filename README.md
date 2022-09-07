@@ -1,3 +1,20 @@
+# OCR Datasets
+
+This repo collects OCR-related datasets. In general, the datasets are classified by 6 types, *i.e.*, **Natural Scene Text**, **Document Text**, **Handwritten Text**, **Historical Document Text**, **Video Text**, and **Synthetic Text**.
+
+
+<div align="center">
+
+![OCR Dataset Type](https://user-images.githubusercontent.com/45810070/188843040-e8d95f94-ef00-406d-b470-2ca83fa0d3cd.png)
+
+</div>
+
+- **Natural Scene Text**: The images in this type of dataset are usually taken in natural scenes, so the difficulty of this task lies in the complex lighting transformations, shooting angles, blurring, varied fonts, etc.
+- **Document Text**: only focues on document images, the difficulty is the variety of typesetting.
+- **Historical Document Text**: is usally designed for assisting social science research. For example, digitized antiquarian documents help preserve historical materials and facilitate scholars to conduct related research.
+- **Video Text**: aims at recognizing texts in videos, which introduces temporal information into the OCR task.
+- **Synthetic Text**: synthetically generates images containing texts and the corresponding annotations by rendering texts of different fonts into natural photos. This type of dataset usually includes hundreds of thousands of samples since it does not require human beings to annotate the images. However, due to the limited technology, there is usually a large domain gap between the synthetic images and authentic samples; these datasets are often employed for pre-training only.
+
 <table>
 <thead>
   <tr>
